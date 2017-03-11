@@ -1,0 +1,53 @@
+body {
+  width: 90%;
+  font-size: 70px;
+  text-align: center;
+}
+
+.day-theme {
+  background-color: rgb(156, 227, 250);
+  color: #1c5880;
+}
+
+.night-theme {
+  background-color: #1c5880;
+  color: rgb(156, 227, 250);
+}
+
+#canvasp {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+}
+
+#submit_button {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #d4dada;
+  box-sizing: border-box;
+  outline: none;
+  white-space: nowrap;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 14px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  background: #fff;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+#submit_button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+#submit_button:active {
+  background-color: #f6f9fc;
+  transform: translateY(1px);
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
