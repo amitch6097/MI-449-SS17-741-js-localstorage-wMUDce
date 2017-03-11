@@ -4,7 +4,7 @@ function init () {
   dayTime = window.localStorage.getItem('local_day')
   var visited = window.localStorage.getItem('visit_num')
 
-  if (isNaN(visited)) {
+  if (isNaN(visited) || visited === null) {
     visited = 1
     window.localStorage.setItem('visit_num', visited)
   } else {
